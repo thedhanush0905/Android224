@@ -24,3 +24,14 @@ fun main() {
     val name = "\t Dhanush \n Dhanush \t Dhanush \n\t Dhanush"
     print(name)
 }
+
+*
+4.)
+4.)
+fun main() {
+    val numbers = arrayOf(1, 2, 3, 4, 5)
+    println(numbers[0])
+    val words: Array<String> = arrayOf("kotlin", "Dhanush", "Srinivas")
+    println(words[2])
+    
+}
