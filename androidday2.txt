@@ -8,3 +8,19 @@ fun main() {
 }
 
 *
+2.)
+fun main() {
+    val letter: Char
+    letter = 'A'
+    print("$letter")
+    print("\n")
+    print("\$")
+    print("\\")
+}
+
+*
+3.)
+fun main() {
+    val name = "\t Dhanush \n Dhanush \t Dhanush \n\t Dhanush"
+    print(name)
+}
