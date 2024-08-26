@@ -1,0 +1,64 @@
+*
+1.)
+fun main() {
+    val numbers = arrayOf(1,2,3,4,5)
+    val words:Array<String> = arrayOf("kotlin","Java","Python")
+    val squares = Array(5){i -> i * i}
+    val firstNumber = numbers[0]
+    val secondNumber = numbers[1]
+    println("First number: $firstNumber")
+    println("Second number: $secondNumber")
+    
+}
+
+*
+2.)
+fun main() {
+    val numbers = arrayOf(1,2,3,4,5)
+    val words:Array<String> = arrayOf("kotlin","Java","Python")
+    val squares = Array(5){i -> i * i}
+    numbers[0] = 9
+    words[1] = "Dhanush"
+    val firstNumber = numbers[0]
+    val secondword = words[1]
+    val thirdSquare = squares[2]
+    println("First number: $firstNumber")
+    println("Second word: $secondword")
+    println("third square: $thirdSquare")
+    print("numbers Array:- ")
+    for (num in numbers)
+    {
+        print(num)
+    }
+    
+}
+
+*
+3.)
+fun main() {
+    val numbers = arrayOf(1,2,3,4,5)
+    val words:Array<String> = arrayOf("kotlin","Java","Python")
+    val squares = Array(5){i -> i * i}
+    numbers[0] = 9
+    words[1] = "Dhanush"
+    val firstNumber = numbers[0]
+    val secondword = words[1]
+    val thirdSquare = squares[2]
+//     println("First number: $firstNumber")
+//     println("Second word: $secondword")
+//     println("third square: $thirdSquare")
+//     print("numbers Array:- ")
+//     for (num in numbers)
+//     {
+//         print(num)
+//     }
+//     val x: Int = 100
+//     val y: Long =x.toLong()
+//     println(y)
+    
+    var a = "hello"
+    var b : String = a as String
+    println("unsafe casting result = $b")
+    
+}
+

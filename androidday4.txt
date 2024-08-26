@@ -1,0 +1,47 @@
+*
+1.)
+fun main() {
+    val a = 10;
+    val b = 20;
+    //Arithematic operater
+    val sum = a + b;
+    println("Sum of $a and $b is : $sum")
+}
+
+*
+2.)
+fun main() {
+    val a = 10;
+    val b = 20;
+    //Arithematic operater
+    val sum = a + b;
+    val sub = a - b;
+    val mul = a * b;
+    val div = a / b;
+    val mod = a % b;
+    val A_a1 = a+b
+    val A_a2 = a-b
+    val A_a3 = a*b
+    val A_a4 = a/b
+    val A_a5 = a%b
+    println("Sum of $a and $b is : $sum")
+    println("Subtraction of $a and $b is : $sub")
+    println("Multiplication of $a and $b is : $mul")
+    println("Division of $a and $b is : $div")
+    println("Modulus of $a and $b is : $mod")
+    println(a.compareTo(b)>0)
+    println(a.compareTo(b)<0)
+    println(a.compareTo(b)>=0)
+    println(a.compareTo(b)<=0);
+//     println(a?equals(b)?:(b===null));
+//     println(!(a?.equals(b)?:(b===null))>0)
+    println(A_a1)
+    println(A_a2)
+    println(A_a3)
+    println(A_a4)
+    println(A_a5)
+    println(a.unaryPlus())
+    println(a.inc())
+    println(a.unaryMinus())
+    println(a.dec())
+}
