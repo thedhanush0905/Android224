@@ -1,0 +1,134 @@
+*
+1.)
+fun main() {
+    val temperature = 35
+    if(temperature > 20)
+    {
+        println("It's a warm day.")
+    }
+    else
+    {
+        println("Its a cold day.")
+    }
+    
+}
+
+*
+2.)
+fun main() {
+   val age = 18
+    if (age>= 18)
+    {
+        print("You are an adult.")
+    }
+    else
+    {
+        println("You are a minor.")
+    }
+}
+
+*
+3.)
+fun main() {
+   val marks = 86
+   if(marks >=90){
+       println("you got a A grade")
+   }
+   else if(marks>=85)
+    {
+        println("you got a B grade")
+    }
+    else if(marks>= 70)
+    {
+        println("you got a C grade")
+    }
+    else
+    {
+        println("you got a D grade")
+    }
+}
+
+*
+4.)
+fun main() {
+   //calculator
+   val a = 15
+   val b = 17
+   val c = "*"
+   if (c== "+")
+    {
+        println(a+b)
+    }
+   else if(c== "-")
+    {
+        println(a-b)
+    }
+    else if(c== "*")
+    {
+        println(a*b)
+    }
+    else if(c== "/")
+    {
+        if(b !=0)
+        {
+            println(a/b)
+        }
+        else {
+            print("Error: Division by zero.")
+        }
+        
+    }
+    else
+    {
+        println(a%b)
+    }
+}
+
+*
+5.)
+fun main() {
+    val age = 15
+    if(age<13)
+    {
+        println("You are a child")
+    }
+    else if(age in 13..19)
+    {
+        println("You are teenager")
+    }
+    else
+    {
+        println("you are an adult")
+    }
+}
+
+*
+6.)
+fun main() {
+	val dayOfWeek = 3
+    val dayName = when(dayOfWeek)
+    {
+        1-> "Monday"
+        2-> "Tuesday"
+        3-> "Wednesday"
+        4-> "Thursday"
+        5-> "Friday"
+        6-> "Saturday"
+        7-> "Sunday"
+        else-> "Invalid day"
+    }
+    println(dayName)
+}
+
+*
+7.)
+fun main() {
+	val number = 8
+    when
+    {
+        number%2 == 0-> println("$number is even")
+        number%2 != 0-> println("$number is odd")
+        else-> println("Unexpected number")
+    }
+}
+
