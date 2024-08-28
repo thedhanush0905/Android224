@@ -1,0 +1,68 @@
+*
+1.)
+fun sum(a:Int=10,b:Int=20)
+{
+    val c = a+b
+    println(c)
+}
+fun main()
+{
+    sum(20,50)
+    sum()
+}
+
+*
+2.)
+fun sum(a:Int,b:Int)
+{
+    val c = a+b
+    println(c)
+}
+fun main()
+{
+    sum(20,50)   
+}
+
+*
+3.)
+fun main(args:Array<String>) {
+    val a = 10
+    val b = 20
+    val result = sum(a,b)
+    println(result)
+    
+}
+fun sum(a:Int, b:Int):Int{
+    val x = a + b
+    return x
+}
+
+*
+4.)
+fun main() {
+    val celsius = 25
+    val fahrenheit = 77
+    
+    println("$celsius°C is equal to ${celsiusToFahrenheit(celsius)}°F")
+    println("$fahrenheit°F is equal to ${fahrenheitToCelsius(fahrenheit)}°C")
+}
+
+fun celsiusToFahrenheit(temperature: Int): Double {
+    return (temperature * 9.0 / 5.0) + 32
+}
+
+fun fahrenheitToCelsius(temperature: Int): Double {
+    return (temperature - 32) * 5.0 / 9.0
+}
+
+*
+5.)
+fun factorial(n: Int): Int{
+    return if(n <= 1) 1 else n * factorial(n-1)
+}
+fun main(){
+    println("enter the number to find factorial")
+    var y:Int=readln().toInt()
+    var x = factorial(y)
+    print(x)
+}
